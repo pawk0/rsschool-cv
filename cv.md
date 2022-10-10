@@ -2,8 +2,8 @@
 
 ## Contact details:
 
-**email:** email@email.com
-**phone number:** (+48) 123 456 789
+- **email:** email@email.com
+- **phone number:** (+48) 123 456 789
 
 ## Stack:
 
