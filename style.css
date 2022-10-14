@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul, main, header, nav, footer, header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.container-flex > * {
+    flex-grow: 1;
+}
+
+footer, header {
+    text-align: center;
+    background: #444;
+    color: #fff;
+}
+
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #888;
+
+    width: 150px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+
+    display: inline-block;
+    margin-right: -4px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+nav a:hover {
+    background-color: #005f4f;
+}
+
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+main {
+    background: #a19f9f;
+    padding: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px #444 solid;
+}
+
+h1 {
+    font-size: 80px;
+}
+.photo{
+    height: 160px;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.outside {
+    display: flex;
+}
+
+.column{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column-1{
+    flex-basis: 40%;
+
+}
+
+.column-2{
+    flex-basis: 60%;
+    border-left: 1px solid #444;
+}
+
+main ul {
+    padding-left: 15px;
+}
+
+main ul li {
+    font-size: 15px;
+}
+
+pre {
+    font-family: Consolas, Courier, monospace;
+    overflow-x: auto;
+    background: #414449;
+    color: #b3bccc;
+    padding: 15px;
+    font-size: 13pt;
+    tab-size: 4;
+    -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .75);
+}
+
+.rs-logo {
+    max-height: 40px;
+    padding: 10px;
+}
+
+.github-logo {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.github-link, .project-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+main li {
+    list-style-type: "\1F44D";
+}
